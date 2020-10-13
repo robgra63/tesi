@@ -7,8 +7,8 @@
 <title>reveal.js</title>
 <link rel="stylesheet" href="dist/reset.css">
 <link rel="stylesheet" href="dist/reveal.css">
-<link rel="stylesheet" href="dist/theme/black.css" id="theme">
-<!-- Theme used for syntax highlighted code -->
+<link rel="stylesheet" href="dist/theme/beige.css" id="theme">
+<! themes black white league beige sky night serif simple solarized blood moon >
 <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 </head>
 
@@ -18,13 +18,84 @@
 	
 <section data-background="#ffffff">
 <h4>Universidad de Valencia</h4>
-<h7>Programa de Doctorado en Derechos Humanos,Democracia y Justicia Internacional</h7>
+<p class="r-fit-text" >Programa de Doctorado en Derechos Humanos, Democracia y Justicia Internacional</p>
 <img src="assets/universidad.png" class="r-stretch">
-<h4>Implementation of the Comprehensive Approach. Leadership factors that influence the respect of Human Rights and International Humanitarian Law</h4>
-<h7 align="left">Doctorando: Roberto Gravili</h7> 		
-<h7 align="right"> Directores:<br> Prof.ra Rosario Serra Cristobal <br>Prof. Fernando Flores Giménez <br>Prof.ra Nuria Lloret Romero</h7>
+<h3 style="color:red">Implementation of the Comprehensive Approach. Leadership factors that influence the respect of Human Rights and International Humanitarian Law</h3>
+<h5 align="left">Doctorando: Roberto Gravili</h5> 		
+<h5 align="right"> Directores: Prof.ra Rosario Serra Cristobal <br>Prof. Fernando Flores Giménez <br>Prof.ra Nuria Lloret Romero</h5>
 </section>
-		
+
+<! transitions fade slide convex concave zoom>
+
+<! 1 SECTION>
+<section>
+
+<section data-background="#ffffff" data-transition="fade">
+<h8>1.1</h8>
+<h2>Roberto Gravili</h2>
+
+<ul> 
+
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</section>
+
+<section data-state="make-it-pop" data-background="#ffffff" data-transition="slide">
+<h8>1.2</h8>
+<h2>Maria Ofelia Santiago Lopez</h2>
+
+<ul> 
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</section>
+
+<section data-markdown>
+  <textarea data-template>
+    ## Slide 1
+    A paragraph with some text and a [link](http://hakim.se).
+    ---
+    ## Slide 2
+    ---
+    ## Slide 3
+  </textarea>
+</section>
+
+<section data-markdown data-background="#ffff00">
+  <textarea data-template>
+    # Slide 1
+    **[Santiago Consultores](http://www.santiagoconsultores.net)
+
+    ---
+    ## Slide 2
+    ---
+    ### Slide 3
+  </textarea>
+</section>
+
+<section data-transition="convex">
+<p class="fragment">Fade in</p>
+<p class="fragment fade-out">Fade out</p>
+<p class="fragment highlight-red">Highlight red</p>
+<p class="fragment fade-in-then-out">Fade in, then out</p>
+<p class="fragment fade-up">Slide up while fading in</p>
+</section>
+
+<section data-transition="concave">
+<p class="fragment">Fade in</p>
+<p class="fragment fade-out">Fade out</p>
+<p class="fragment highlight-red">Highlight red</p>
+<p class="fragment fade-in-then-out">Fade in, then out</p>
+<p class="fragment fade-up">Slide up while fading in</p>
+</section>
+
+</section>
 			
 			
 			
@@ -49,4 +120,3 @@ plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 </body>
 	
 </html>
-
