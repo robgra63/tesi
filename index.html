@@ -7,7 +7,7 @@
 <title>reveal.js</title>
 <link rel="stylesheet" href="dist/reset.css">
 <link rel="stylesheet" href="dist/reveal.css">
-<link rel="stylesheet" href="dist/theme/beige.css" id="theme">
+<link rel="stylesheet" href="dist/theme/simple.css" id="theme">
 <! themes black white league beige sky night serif simple solarized blood moon >
 <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 </head>
@@ -16,9 +16,9 @@
 <div class="reveal">
 <div class="slides">
 	
-<section data-background="#ffffff">
-<h3>Universidad de Valencia</h3>
-<h5 class="r-fit-text" >Programa de Doctorado en Derechos Humanos, Democracia y Justicia Internacional</h5>
+<section id="inizio" data-background="#ffffff">
+<h3 style="color:blue">Universidad de Valencia</h3>
+<p style="color:blue" class="r-fit-text" >Programa de Doctorado en Derechos Humanos, Democracia y Justicia Internacional</p>
 <img src="assets/universidad.png" class="r-stretch">
 <h3 style="color:red">Implementation of the Comprehensive Approach. Leadership factors that influence the respect of Human Rights and International Humanitarian Law</h3>
 <h5 align="left">Doctorando: Roberto Gravili</h5> 		
@@ -26,6 +26,17 @@
 </section>
 
 <! transitions fade slide convex concave zoom>
+
+<section id="agenda" data-background="#000000">
+<h2>AGENDA</h2>
+<h3 align="left">Chapter</h3>
+<h3 align="left">Chapter</h3>
+<h3 align="left">Chapter</h3>
+<h3 align="left">Chapter</h3>
+<h3 align="left">Chapter</h3>
+<h3 align="left">Chapter</h3>
+
+</section>
 
 <! 1 SECTION>
 <section>
@@ -41,11 +52,12 @@
 <li></li>
 <li></li>
 </ul>
+<p align="right"><a ref="inizio">First slide</a></p>
 </section>
 
 <section data-state="make-it-pop" data-background="#ffffff" data-transition="slide">
 <h8>1.2</h8>
-<h2>Maria Ofelia</h2>
+<h2>Maria Ofelia Santiago Lopez</h2>
 
 <ul> 
 <li></li>
@@ -110,7 +122,7 @@
 // More info about initialization & config:
 // - https://revealjs.com/initialization/
 // - https://revealjs.com/config/
-Reveal.initialize({
+Reveal.initialize({ slideNumber: true,
 hash: true,
 // Learn about plugins: https://revealjs.com/plugins/
 plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
